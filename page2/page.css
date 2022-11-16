@@ -1,0 +1,530 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+body{
+
+
+    width: 1920px;
+    height: 1820px;
+
+}
+/*========================= HEADER ---------============================*/
+.logo{
+    margin-left: 3%;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 113px;
+    width: 1920px;
+    background-color: #25004A;
+}
+
+
+
+
+.nav{
+    color:white;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+}
+
+.navb{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+li{
+    margin-left: 3px;
+    list-style: none;
+    padding: 5px;
+}
+
+
+.contato{
+   border-left: 4px solid white;
+   border-right: 4px solid white;
+}
+
+a{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+/*========================= -------------- ---------============================*/
+
+/*========================= MAIN ---------============================*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    
+    height: 1629px;
+    width: 1920px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.minicont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.navegation{
+    width: 655px;
+    height: 47px;
+   }
+
+.bt1,.bt2,.bt3{
+    width: 214px;
+    height: 48px;
+    background: none;
+    border-radius: 1px;
+    margin-left: -5px;
+    border: none;
+    border-left: 3px solid   #D9D9D9;
+    border-right:3px solid   #D9D9D9 ;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.bt1{
+    border-bottom: 3px solid #C384CC;
+}
+
+.bt2{
+    border-bottom: 3px solid #3D97EE;
+}
+
+.bt3{
+    border-bottom: 3px solid #D2AD27;
+}
+
+
+
+
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    margin-top: 30px;
+    font-family: 'Arima Madurai', cursive;
+    font-size: 50px;
+    height: 300px;
+    width: 1000px;
+    border:2px solid #000000;
+    background-color: #C384CC;
+    color: white;
+}
+
+
+
+.image{
+    height: 127px;
+    width: 127px;
+}
+
+.classes{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.circle{
+    margin-top: 70px;
+ 
+    border: 3px solid black;
+    height: 205px;
+    width: 205px;
+    border-radius: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.divi{
+    margin-left: 97px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+
+}
+
+.sub{
+    margin-top: 25px;
+}
+
+.camisa{
+    filter: contrast(3);
+}
+
+select{
+cursor: pointer;    
+position: absolute;
+width: 226px;
+height: 29px;
+ 
+-webkit-appearance: none;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+margin-top: 4.3%;
+margin-left: 5%;
+background: no-repeat #eeeeee;
+}
+
+ 
+.carousel{
+    margin-top: 185px;
+    width: 1457px;
+ 
+
+height:448px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+ 
+    
+}
+
+
+.imgr{
+height: 300px;
+width: 250px;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+
+}
+
+.title{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+}
+ 
+.view{
+    
+    width: 150px;
+    height: 50px;
+    background: #D9D9D9;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+    border: none;
+    margin-top: 30px;
+
+    cursor: pointer;
+
+}
+
+
+
+
+.slot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+   
+ 
+
+}
+
+ 
+
+
+/*Width
+249px
+Height
+432px*/
+ 
+
+.titler{
+    margin-top: 35px;
+}
+
+ 
+
+
+/*========================= -------------- ---------============================*/
+/*========================= FOOTER ---------============================*/
+
+footer{
+    width: 1920px;
+    height: 294px;
+    
+    background: #16002D;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}/*========================= -------------- ---------============================*/
+/*========================= -------------- ---------============================*/
+ /*FOOTER CONTATOS*/
+
+.contitle,.eml,.tele{
+    color: white;
+}
+
+.contacto{
+
+    position: relative;
+    height: 294px;
+    width: 499px;
+
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.contitle{
+     text-align: center;
+ 
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+margin-top: 40px;
+
+}
+
+.email{
+    display:  flex;
+    flex-direction: row;
+    align-items: center;
+     
+    
+    margin-top: 30px;
+    height: 70px;
+    width: 414px;
+}
+
+
+
+.tel{
+    display:  flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+    height: 70px;
+    width: 414px;
+}
+
+
+.eml{
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.tele{
+  
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+
+
+
+.icon{
+    width: 60px;
+    height: 59.59px;
+    
+}
+/*========================= -------------- ---------============================*/
+/*FOOTER HORARIOS*/
+
+
+
+.hora{
+    
+
+    display: flex;
+    flex-direction: column;
+    height: 294px;
+    width: 499px;
+    
+}
+
+
+
+
+ .cop,.desc,.htitle{
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+.htitle{
+    text-align: center;
+ 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 40px;
+}
+
+
+.desc{
+    margin-top: 29px;
+    width: 483px;
+    height: 74px;
+    text-align: center;
+ 
+}
+
+
+.quebra{
+    text-align: center;
+}
+
+
+.cop{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 8px;
+}
+
+
+
+
+
+
+
+/*========================= -------------- ---------============================*/
+/*========================= -------------- ---------============================*/
+/*Desenvolvedores*/
+
+
+.dev{
+    height: 294px;
+    width: 499px;
+   
+}
+.devtitle{
+     
+ 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 40px;
+
+}
+
+
+.devtitle,.listdev{
+    color: white;
+    text-align: center;
+}
+
+
+.listdev{
+    margin-top: 33px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li{
+    margin-top: 5px;
+}
+
+/*========================= -------------- ---------============================*/
+/*Local*/
+
+.local{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 294px;
+    width: 499px;
+   }
+
+.loctitle,.ender{
+    color: white;
+    text-align: center;
+}
+
+.loctitle{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 40px;
+
+}
+.map{
+    margin-top: 5px;
+    height: 179px;
+width: 220px;
+ 
+}
+
+.ender{
+    margin-top: 10px;
+    font-size: 10px;
+
+}
+
+
+
+/*========================= -------------- ---------============================*/
+
